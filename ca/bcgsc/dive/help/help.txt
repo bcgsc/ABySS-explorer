@@ -1,0 +1,13 @@
+Usage: java -jar AbyssExplorer.jar [OPTION]
+Application to view statistics, plots, and adjacency of ABySS assemblies.
+
+[OPTION]
+$PATH*     either i) paths to one or more ABySS assembly directories or
+                     their parent directories. Separate paths with a space.
+           or    ii) path to one ADJ or DOT file
+           but not both
+
+--help     display this help and exit
+--version  output version information and exit
+
+Report bugs to <abyss-users@googlegroups.com>.
