@@ -11,12 +11,6 @@ Copyright 2011 Canada's Michael Smith Genome Sciences Centre, BC Cancer
 
 * [Java SE Runtime Environment (JRE) 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 
-### Libraries used (already included in the compiled package):
-
-* [Apache Batik SVG Toolkit](https://xmlgraphics.apache.org/batik/)
-* [JFreeChart 1.0.18](http://www.jfree.org/jfreechart/)
-* [JUNG 2.0.1](http://jung.sourceforge.net/)
-
 Check your Java version:
 ```
 java -version
@@ -29,9 +23,17 @@ Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 ```
 
+### Libraries used:
+
+* [Apache Batik SVG Toolkit](https://xmlgraphics.apache.org/batik/)
+* [JFreeChart 1.0.18](http://www.jfree.org/jfreechart/)
+* [JUNG 2.0.1](http://jung.sourceforge.net/)
+
+These libraries are already included in the compiled package.
+
 ## Installation :wrench:
 
-1. Download the binary tarball `rnabloom_vX.X.X.tar.gz` from the [releases](https://github.com/bcgsc/RNA-Bloom/releases) section.
+1. Download the binary tarball `ABySS-explorer-X.X.X.tar.gz` from the [releases](https://github.com/bcgsc/ABySS-explorer/releases) section.
 2. Extract the downloaded tarball with the command:
 ```
 tar -zxf ABySS-explorer-X.X.X.tar.gz
@@ -44,7 +46,7 @@ If you decide to move the files to another location, make sure `ABySS-explorer.j
 
 ## Java Options :coffee:
 
-### To limit the size of Java heap to 1GB:
+To limit the size of Java heap to 1GB:
 ```
 java -Xmx1g -jar ABySS-explorer.jar ...
 ```
